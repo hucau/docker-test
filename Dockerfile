@@ -10,4 +10,4 @@ RUN apt-get update -y && \
 VOLUME [ "/var/www/html" ]
 WORKDIR /var/www/html
 EXPOSE 9000
-CMD ["php7-fpm.0"]
+CMD [" php7-fpm.0"]
